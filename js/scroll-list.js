@@ -2,11 +2,11 @@ $(document).ready(function() {
 
 	/*实现通知公告滚动效果*/
 	// 定义计时器
-	var timer;
+	let timer;
 	// 获取滚动列表
-	var $scrollList = $('.notice-list:first');
+	let $scrollList = $('.notice-list:first');
 	// 获取滚动列表项的高度
-	var height = $scrollList.find('li:first').height();
+	let height = $scrollList.find('li:first').height();
 	// 设置定时器
 	timer = setTimeout(scrollUp,3000);
 	// 设置鼠标移入移出事件
