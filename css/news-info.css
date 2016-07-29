@@ -1,0 +1,68 @@
+/*全局*/
+body {
+	margin: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+	background-color: #fff;
+}
+
+/*顶部导航条*/
+header.navbar {
+	border-radius: 0;
+}
+header a {
+	font: bold 15px "Microsoft YaHei";
+	color: #9d9d9d;
+}
+/*头部Logo与站内搜索框*/
+.logo-area {
+	margin-top: 50px;
+}
+/*通知公告*/
+.scroll-notice {
+	position: relative;
+	padding: 5px 5px 5px 90px;
+	height: 40px;
+	border: 1px solid #337ab7;
+	border-radius: 5px;
+	background-color: #fff;
+	overflow: hidden;
+}
+.notice-title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px;
+	margin: 0;
+	height: 40px;
+	font: bold 15px "Microsoft YaHei";
+	color: #fff;
+	background-color: #337ab7;
+}
+.notice-list {
+	list-style-type: none;
+	padding-left: 10px;
+	margin: 0;
+}
+.notice-list a{
+	font: bold 15px/30px "microsoft yahei";
+	color: #555555
+}
+/*新闻公告面板*/
+.panel-news-info {
+	margin-top: 20px;
+}
+.media-left {
+	width: 165px;
+	padding-right: 10px;
+}
+.media-left>a>img {
+	width: 155px;
+	height: 100px;
+}
+/*最热新闻区*/
+.news-top3 {
+	background-color: #C22222;
+}

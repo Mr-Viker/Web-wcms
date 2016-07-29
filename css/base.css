@@ -1,0 +1,93 @@
+
+/*头部Logo与站内搜索框*/
+.search-container {
+	padding-top: 2.5%;
+}
+#search .btn {
+    font: 15px "Microsoft YaHei";
+}
+/*导航栏*/
+.nav-main {
+    font: bold 15px "Microsoft YaHei";
+}
+/*面板*/
+.panel {
+    font: bold 15px "Microsoft YaHei";
+}
+/*面板标题栏*/
+.panel-title a {
+    float: right;
+}
+/*面板列表项*/
+.panel .list-group-item a {
+    font: 15px "Microsoft YaHei";
+    white-space: nowrap; /*设置文本不换行*/
+    word-break: keep-all;
+    overflow: hidden;
+    text-overflow: ellipsis; /*以省略符号来代替被修剪的文本*/
+    display: block; /*需要将其变为块级元素才能overflow*/
+}
+/*模态框*/
+.modal-body .form-group p {
+    font: 15px "Microsoft YaHei";
+    color: #444444;
+    padding: 8px 0;
+}
+/*媒体对象（构建图文混排）*/
+.media-body h4,
+.media-body p {
+    font: 15px/25px "Microsoft YaHei";
+}
+.media-left img {
+    transition: all 1s;
+}
+.media-left img:hover {
+    transform: rotateY(180deg);
+}
+
+/*页脚*/
+.footer {
+    background-color: #34383d;
+    color: white;
+    margin-top: 20px;
+}
+.row-top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+.footer a,
+.row-bottom {
+    font: 15px/30px "Microsoft YaHei";
+    color: #cccacc;
+}
+.footer-left {
+    padding-right: 50px;
+    text-align: right;
+    border-right: 1px solid #454a51;
+}
+.footer-right {
+    padding-left: 50px;
+    text-align: left;
+    border-left: 1px solid #454a51;
+}
+.footer-center {
+    text-align: center;
+}
+.footer-center img {
+    margin: 0 auto;
+}
+.footer-center .tel {
+    font: 15px/30px "Microsoft YaHei";
+    color: #fff;
+}
+.row-bottom {
+    padding: 20px 0;
+    background-color: #2b2e32;
+    border-top: 1px solid #3e4248;
+    font-weight: bold;
+    text-align: center;
+}

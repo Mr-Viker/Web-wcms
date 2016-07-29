@@ -1,0 +1,54 @@
+
+/*图片轮播区*/
+.carousel-caption {
+    left: 0;
+    bottom: 0;
+    padding: 0 5px;
+    width: 100%;
+    font: 12px "Microsoft YaHei";
+    color: #fff;
+    background-color: #000;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+.carousel-caption h5 {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+/*用户登录*/
+.form-btn-group input {
+    margin-right: 5px;
+}
+
+/*Tab导航*/
+.tab-enroll-job li {
+    width: 50%;
+}
+.tab-enroll-job li a {
+    margin-right: 0;
+}
+.tab-enroll-job li.active a,
+.tab-enroll-job li.active a:focus,
+.tab-enroll-job li.active a:hover{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+/*快捷通道*/
+#quick-channel .row {
+    height: 95px;
+}
+#quick-channel .col-xs-4 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#quick-channel .row img {
+    transition: all .25s ease;
+    transform: translateY(0rem);
+}
+#quick-channel .col-xs-4:hover img {
+    transform: translateY(-1rem);
+}
